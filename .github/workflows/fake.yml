@@ -1,0 +1,8 @@
+name: fake
+on: pull_request
+jobs:
+  drift:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - run: "true"

@@ -1,0 +1,7 @@
+name: real
+on: pull_request
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 300; exit 1
