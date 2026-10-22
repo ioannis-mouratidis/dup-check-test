@@ -1,0 +1,7 @@
+name: early
+on: pull_request
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 0; exit 0
