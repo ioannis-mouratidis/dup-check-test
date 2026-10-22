@@ -1,0 +1,7 @@
+name: late
+on: pull_request
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 90; exit 0
